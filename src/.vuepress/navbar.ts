@@ -8,16 +8,16 @@ export default navbar([
     prefix: "/guide/",
     children: [
       {
-        text: "Bar",
+        text: "条例",
         icon: "lightbulb",
-        prefix: "bar/",
-        children: ["baz", { text: "...", icon: "ellipsis", link: "" }],
+        prefix: "basic-law/",
+        children: ["confederation"],
       },
       {
-        text: "Foo",
+        text: "社区",
         icon: "lightbulb",
-        prefix: "foo/",
-        children: ["ray", { text: "...", icon: "ellipsis", link: "" }],
+        prefix: "communities/",
+        children: ["sakura"],
       },
     ],
   },

@@ -52,7 +52,6 @@ highlights:
         details: 全服唯一全局强制性条例
 
   - header: 社区生存
-    image: /assets/image/layout.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     highlights:

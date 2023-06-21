@@ -9,6 +9,8 @@ export default hopeTheme({
     name: "Ziling_uwu",
   },
 
+  darkmode: "enable",
+
   iconAssets: "fontawesome-with-brands",
 
   logo: "/lair-256-transparent-whiteText.png",
