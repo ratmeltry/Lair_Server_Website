@@ -3,10 +3,10 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://lairserver.cn/",
 
   author: {
-    name: "Ziling_uwu",
+    name: "Lair Confederate Legislative Committee",
   },
 
   darkmode: "enable",
@@ -19,13 +19,11 @@ export default hopeTheme({
 
   docsDir: "src",
 
-  // navbar
   navbar,
 
-  // sidebar
   sidebar,
 
-  footer: "默认页脚",
+  footer: "QQ群: 438684087",
 
   displayFooter: true,
 
@@ -35,7 +33,6 @@ export default hopeTheme({
     },
   },
 
-  // page meta
   metaLocales: {
     editLink: "在 GitHub 上编辑此页",
   },

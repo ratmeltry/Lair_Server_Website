@@ -10,7 +10,7 @@ export default navbar([
       {
         text: "条例",
         icon: "lightbulb",
-        prefix: "basic-law/",
+        prefix: "law/",
         children: ["confederation"],
       },
       {
@@ -25,5 +25,10 @@ export default navbar([
     text: "白名单申请",
     icon: "book",
     link: "https://wj.qq.com/s2/12618735/9fb0/",
+  },
+  {
+    text: "社区申请",
+    icon: "book",
+    link: "https://wj.qq.com/s2/12620134/b688/",
   },
 ]);

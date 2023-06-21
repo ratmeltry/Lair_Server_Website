@@ -1,1 +1,2 @@
 https://plugin-md-enhance-demo.vuejs.press/demo/
+https://fontawesome.com/
