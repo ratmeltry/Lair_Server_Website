@@ -4,8 +4,7 @@ name: 部署文档
 on:
   push:
     branches:
-      # 确保这是你正在使用的分支名称
-      - main
+      - master
 
 jobs:
   deploy-gh-pages:
@@ -15,12 +14,10 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-          # 如果你文档需要 Git 子模块，取消注释下一行
-          # submodules: true
 
       - uses: pnpm/action-setup@v2
         with:
-          version: 6.0.2
+          version: 7
           run_install: true
 
 
@@ -41,6 +38,5 @@ jobs:
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
           folder: src/.vuepress/dist
