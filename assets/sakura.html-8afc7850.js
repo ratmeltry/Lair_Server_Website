@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o as t,c as o,a as s}from"./app-1b901eb1.js";const a={},c=s("p",null,"功能详情...",-1),r=[c];function _(n,l){return t(),o("div",null,r)}const m=e(a,[["render",_],["__file","sakura.html.vue"]]);export{m as default};
