@@ -13,5 +13,5 @@ tag: [教程]
 
 ## 列表
 
-- [通过 HMCL 加入服务器](/hmcl.md)
-- [通过 PCL2 加入服务器](/pcl2.md)
+- [通过 HMCL 加入服务器](hmcl.md)
+- [通过 PCL2 加入服务器](pcl2.md)
