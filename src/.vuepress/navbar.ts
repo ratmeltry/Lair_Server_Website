@@ -23,7 +23,7 @@ export default navbar([
         text: "社区",
         icon: "lightbulb",
         prefix: "communities/",
-        children: ["sakura"],
+        children: ["sakura", "kfc"],
       },
     ],
   },
