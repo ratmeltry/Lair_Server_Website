@@ -8,6 +8,12 @@ export default navbar([
     prefix: "/guide/",
     children: [
       {
+        text: "教程",
+        icon: "lightbulb",
+        prefix: "tutorials/",
+        children: ["hmcl", "pcl2"],
+      },
+      {
         text: "条例",
         icon: "lightbulb",
         prefix: "law/",
